@@ -37,3 +37,25 @@ Steps for Installation:
 1. First we have to download Anaconda we can visit the page directly by clicking at [Anaconda Download](https://www.anaconda.com/products/individual)
 Here we have scroll to the bottom and we can see installers for various opearating systems. We have to choose according to our system requirements.
 This step can be skipped if anaconda is already installed.
+
+2. In anaconda prompt create a new environment by the following command:
+```conda create --name myenv```
+
+3. After creating a new environment it is activated by following command: ```conda activate myenv'''
+
+4. Now we have to navigate to directory where we have downloaded this repository and we have to it via anaconda prompt using command: ```cd path of the directory``` 
+
+5. After navigating to the directory we have to install the dependencies of this project by using a file that is called requirements.txt that I have already provided in 
+my repository and the dependencies can be installed by using command ```pip install requirements.txt```
+but this command must be executed after executing step 4 otherwise it will won't work.
+
+6. To run this app in the local machine we have to use the command:```python app.py```
+After execution it will give a local address just copy that and paste that in the address bar of the browser and the web app is ready to use.
+
+## Credits
+Credits of this project goes to krish Naik sir's YouToube channel. Lead data scientist at Ineuron. His videos were a great help
+[Link of the channel](https://www.youtube.com/user/krishnaik06)
+
+
+
+

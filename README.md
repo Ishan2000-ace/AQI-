@@ -27,7 +27,7 @@ The link is of official website of the sci-kit learn.
 
 ## Deployment of the Model
 This model is deployed by using flask framework of python that is used for backend development of web. HTML and CSS has been used for the frontend UI. This app is being hosted on 
-Heroku cloud which is considerd as platform as a service. This app can be viewed,used and tested directly by clicking at:
+Heroku cloud which is considerd as platform as a service. This app can be viewed,used and tested directly by clicking at
 [AQI APP](https://aqipredictordelhi.herokuapp.com/)
 ![Heroku](https://a.slack-edge.com/bfaba/img/api/hosting_heroku.png)
 ![Flask](https://avatars1.githubusercontent.com/u/18305767)

@@ -11,7 +11,8 @@ deployment.
 ## Data Collection
 I have scrapped the data by using beautiful soup library in python. I scrapped the data from [climate Data](https://en.tutiempo.net/climate/03-2013/ws-421810.html). Here I have 
 all the data from 2013-2018. The exctraction code is named as Extract.py. After that I combined all the extracted HTML Data of different years in different folders in csv format.
-It is done by the code in the file AQI_Plot.py. 
+It is done by the code in the file AQI_Plot.py.
+![pandas](https://pythonawesome.com/content/images/2018/05/pandas-logo.png) ![beautifulsoup](https://python-scripts.com/wp-content/uploads/2019/10/beautifulsoup-html-parsing-example.png)
 
 ## Machine Learning Algorithm
 I have Performed EDA in seperate file to understand the relationship between various features. I used mainly Pandas, Matplotlib and Seaborn to perform the analysis
@@ -21,6 +22,18 @@ available at RandomForest.ipynb. Random Forest fits a number of  decision tress 
 overfitting of the data. By defalut no. of trees that are combined are 100 but we can change them according to our needs. More details about the parameters and syntax can be viewed
 at [Random Forest Regressor](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html#:~:text=A%20random%20forest%20regressor.%20A%20random%20forest%20is,to%20improve%20the%20predictive%20accuracy%20and%20control%20over-fitting.)
 The link is of official website of the sci-kit learn.
-![Algo representation](https%3a%2f%2fhardtasksin.files.wordpress.com%2f2019%2f06%2frandom-e1561729980815.png)
+![Random Forest](https://hardtasksin.files.wordpress.com/2019/06/random-e1561729980815.png?w=522&h=347)
+![sklearn](https://machine-earning.net/wp-content/uploads/2018/02/eye_sklearn.png)
 
+## Deployment of the Model
+This model is deployed by using flask framework of python that is used for backend development of web. HTML and CSS has been used for the frontend UI. This app is being hosted on 
+Heroku cloud which is considerd as platform as a service. This app can be viewed,used and tested directly by clicking at:
+[AQI APP](https://aqipredictordelhi.herokuapp.com/)
+![Heroku](https://a.slack-edge.com/bfaba/img/api/hosting_heroku.png)
+![Flask](https://avatars1.githubusercontent.com/u/18305767)
 
+## Installation Details
+Steps for Installation:
+1. First we have to download Anaconda we can visit the page directly by clicking at [Anaconda Download](https://www.anaconda.com/products/individual)
+Here we have scroll to the bottom and we can see installers for various opearating systems. We have to choose according to our system requirements.
+This step can be skipped if anaconda is already installed.

@@ -51,7 +51,6 @@ but this command must be executed after executing step 4 otherwise it will won't
 
 6. To run this app in the local machine we have to use the command:```python app.py```
 After execution it will give a local address just copy that and paste that in the address bar of the browser and the web app is ready to use.
-
 ## Credits
 Credits of this project goes to krish Naik sir's YouToube channel. Lead data scientist at Ineuron. His videos were a great help
 [Link of the channel](https://www.youtube.com/user/krishnaik06)
